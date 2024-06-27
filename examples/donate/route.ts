@@ -18,7 +18,7 @@ import {
 import { prepareTransaction } from '../transaction-utils';
 
 const DONATION_DESTINATION_WALLET =
-  '3h4AtoLTh3bWwaLhdtgQtcC3a3Tokb8NJbtqR9rhp7p6';
+  'BMRVHacrJEnA2wA1fRnMt9evZthhD4D8UHPqXWxE2D55';
 const DONATION_AMOUNT_SOL_OPTIONS = [1, 5, 10];
 const DEFAULT_DONATION_AMOUNT_SOL = 1;
 
@@ -142,10 +142,10 @@ function getDonateInfo(): Pick<
   'icon' | 'title' | 'description'
 > {
   const icon =
-    'https://ucarecdn.com/7aa46c85-08a4-4bc7-9376-88ec48bb1f43/-/preview/880x864/-/quality/smart/-/format/auto/';
-  const title = 'Donate to Alice';
+    'https://img.learnblockchain.cn/dwong.jpeg';
+  const title = 'Donate to dwong';
   const description =
-    'Cybersecurity Enthusiast | Support my research with a donation.';
+    'Solana Enthusiast | Support my research with a donation.';
   return { icon, title, description };
 }
 async function prepareDonateTransaction(
